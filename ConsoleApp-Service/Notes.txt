@@ -1,0 +1,16 @@
+﻿---------------------------
+ Service Application Notes
+---------------------------
+Ref: Topshelf: http://docs.topshelf-project.com/en/latest/configuration/config_api.html
+
+> Create Console Application as usual
+> Install Topshelf using NuGet Package Manager.
+> Install/uninstall Console Application using Topshelf command.
+> Run Command Prompt as an Administrator and navigate to the bin/debug folder of Console Application.
+Ex: $ cd C:\ConsoleApp-Service\bin\Debug
+
+> To install windows service run this command.
+Ex: $ ConsoleApp-Service.exe install
+
+> To uninstall windows service run this command.
+Ex: $ ConsoleApp-Service.exe uninstall
